@@ -1,11 +1,11 @@
 package io.zipcoder.microlabs.mastering_loops;
 import java.lang.StringBuilder;
-import java.util.Scanner;
+
 
 public class TableUtilities {
 
     public static String getSmallMultiplicationTable() {
-        return(getMultiplicationTable(5)); 
+        return(getMultiplicationTable(5));
     }
 
     public static String getLargeMultiplicationTable() {
@@ -38,6 +38,8 @@ public class TableUtilities {
 
     }
     /* legacy code
+    import java.util.Scanner;
+
     public static String getSmallMultiplicationTable() {
 
         int num = 1;
